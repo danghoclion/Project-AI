@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\ThuyenImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\thit.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\SusuImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\SuquyImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\SuImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\su.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\QuyquyImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Resource\QuyImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
